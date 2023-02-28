@@ -4,11 +4,13 @@ public class No<T> {
 	
 	private T conteudo;
 	private No<T> noProximo;
+	
 	public No(T conteudo, No<T> noProximo) {
 		super();
 		this.conteudo = conteudo;
 		this.noProximo = null;
 	}
+	
 	public T getConteudo() {
 		return conteudo;
 	}
