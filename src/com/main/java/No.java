@@ -5,6 +5,21 @@ public class No<T> {
 	private T conteudo;
 	private No<T> noProximo;
 	
+	
+	
+	public No() {
+		super();
+	}
+	
+	
+
+	public No(T conteudo) {
+		super();
+		this.conteudo = conteudo;
+	}
+
+
+
 	public No(T conteudo, No<T> noProximo) {
 		super();
 		this.conteudo = conteudo;
